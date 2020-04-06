@@ -33,6 +33,7 @@
         "bootstrap": "4.3.1",
         "jquery": "3.4.1",
         "jquery.easing": "^1.4.1",
+        "minimist": "^1.2.5",
         "simple-line-icons": "^2.4.1"
     },
     "devDependencies": {
