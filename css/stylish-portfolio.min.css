@@ -17,7 +17,7 @@ body {
 #portfolio {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
-    background: #8698a214;
+    background: #8698a23d;
 }
 .content-section-heading h2 {
     font-size: 3rem;
@@ -358,16 +358,10 @@ a:hover {
 .text-secondary {
     color: #39809f !important;
 }
-.bg-light {
-    padding-top: 20px;
-}
 
 @media (max-width: 580px) {
     .mb-0 {
         font-size: 12pt !important;
-    }
-    .bg-light {
-        padding-top: 20px;
     }
     .col-lg-6 {
         margin-bottom: 20px;
@@ -383,8 +377,15 @@ a:hover {
     }
     .img-fluid {
         grid-row: 2;
+        margin-top: 10px;
     }
     .footer {
         margin-bottom: 10rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .col-lg-6 {
+        margin-bottom: 20px;
     }
 }
