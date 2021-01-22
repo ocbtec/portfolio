@@ -1,0 +1,30 @@
+.masthead {
+  background-image: url("../img/screen.jpg");
+}
+
+.headline-header {
+  color: #b0b0b0;
+}
+
+#headline-h1 {
+  letter-spacing: 10px;
+}
+
+#headline-h2 {
+  letter-spacing: 5px;
+  margin-top: 3rem;
+}
+
+.menu-toggle {
+  /* background-color: #343a4080; */
+  background-color: #50687985;
+  /* border: 1px solid white; */
+}
+
+.menu-toggle:hover {
+  background-color: #1d809f;
+}
+
+#sidebar-wrapper {
+  background-color: #50687985;
+}
