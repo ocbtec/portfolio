@@ -66,11 +66,21 @@
   margin: 0 auto;
 }
 
+.portrait-img {
+  width: 70%;
+}
+
+.portfolio-img {
+  width: -webkit-fill-available;
+  width: -moz-available;
+}
+
 .hover-animation {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: -webkit-fill-available;
+  width: -moz-available;
   height: 100%;
   position: absolute;
   top: 0;
