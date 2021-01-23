@@ -10,9 +10,12 @@
   letter-spacing: 0;
 }
 
-#scroll-to-top {
-  letter-spacing: 0;
+#scroll-to-top-link {
   background-color: #50687985;
+}
+
+#scroll-to-top-icon {
+  letter-spacing: 0;
 }
 
 .headline-header {
@@ -34,7 +37,6 @@
 
 .menu-toggle {
   background-color: #50687985;
-  border: 1px solid white;
 }
 
 .menu-toggle:hover {
@@ -90,11 +92,27 @@
 
 .icon-social-linkedin,
 .icon-social-github {
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 
 .text-muted {
   letter-spacing: 1px;
+}
+
+#contact-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem !important;
+  background-color: #1d809f !important;
+  transition: background-color .15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+  text-decoration: none;
+}
+
+#footer-copyright {
+  color: white !important;
 }
 
 @media screen and (max-width: 480px) {
