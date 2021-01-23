@@ -66,11 +66,21 @@
   margin: 0 auto;
 }
 
+.portrait-img {
+  width: 70%;
+}
+
+.portfolio-img {
+  width: -webkit-fill-available;
+  width: -moz-available;
+}
+
 .hover-animation {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: -webkit-fill-available;
+  width: -moz-available;
   height: 100%;
   position: absolute;
   top: 0;
@@ -106,9 +116,18 @@
   line-height: 4.3rem;
   font-size: 1.5rem !important;
   background-color: #1d809f !important;
-  transition: background-color .15s ease-in-out;
-  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+  box-shadow: #00000030 0px 3px 3px 0px;
   text-decoration: none;
+  transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  transition: all 0.2s ease-out;
+}
+
+#contact-link:hover {
+  transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  background-color: #33b0d6 !important;
+  box-shadow: #00000030 0px 0px 3px 3px;
 }
 
 #footer-copyright {
