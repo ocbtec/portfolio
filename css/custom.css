@@ -6,6 +6,15 @@
   background-image: url("../img/screen.jpg");
 }
 
+#burger-menu {
+  letter-spacing: 0;
+}
+
+#scroll-to-top {
+  letter-spacing: 0;
+  background-color: #50687985;
+}
+
 .headline-header {
   color: #b0b0b0;
 }
@@ -37,7 +46,8 @@
 }
 
 #about-text {
-  font-size: 35px;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 
 #my-work-button {
@@ -85,4 +95,31 @@
 
 .text-muted {
   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    letter-spacing: 2px;
+  }
+  #header-h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 50px;
+  }
+  #header-h2 {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+  #headline-h2 {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+  #section-headline {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  #about-text {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
 }
