@@ -1,0 +1,125 @@
+* {
+  letter-spacing: 5px;
+}
+
+.masthead {
+  background-image: url("../img/screen.jpg");
+}
+
+#burger-menu {
+  letter-spacing: 0;
+}
+
+#scroll-to-top {
+  letter-spacing: 0;
+  background-color: #50687985;
+}
+
+.headline-header {
+  color: #b0b0b0;
+}
+
+#headline-h1 {
+  letter-spacing: 10px;
+}
+
+#headline-h2 {
+  color: #1d809f;
+}
+
+#headline-h3 {
+  color: #1d809f !important;
+  font-size: 20px;
+}
+
+.menu-toggle {
+  background-color: #50687985;
+  border: 1px solid white;
+}
+
+.menu-toggle:hover {
+  background-color: #1d809f;
+}
+
+#sidebar-wrapper {
+  background-color: #50687985;
+}
+
+#about-text {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+#my-work-button {
+  background-color: #1d809f;
+}
+
+#my-work-button:hover {
+  background-color: #155d74;
+}
+
+.link-container {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.hover-animation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #c3c3c300;
+  color: #ffffff00;
+  font-size: 50px;
+  text-align: center;
+  transition: all 0.5s ease-out;
+}
+
+.hover-animation:hover {
+  background-color: #718cbdaf;
+  color: white;
+}
+
+.footer {
+  background-color: #f8f9fa;
+}
+
+.icon-social-linkedin,
+.icon-social-github {
+  letter-spacing: 1px;
+}
+
+.text-muted {
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    letter-spacing: 2px;
+  }
+  #header-h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 50px;
+  }
+  #header-h2 {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+  #headline-h2 {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+  #section-headline {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  #about-text {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+}
