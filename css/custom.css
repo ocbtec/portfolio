@@ -2,6 +2,10 @@
   letter-spacing: 5px;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .masthead {
   background-image: url("../img/screen.jpg") !important;
 }
@@ -67,8 +71,8 @@
   top: 30px;
 }
 
-#about-text {
-  font-size: 30px;
+.standard-text {
+  font-size: 25px;
 }
 
 .link-container {
@@ -153,7 +157,7 @@
   #section-headline {
     font-size: 30px;
   }
-  #about-text {
+  .standard-text {
     font-size: 20px;
   }
   #sidebar-wrapper.active {
