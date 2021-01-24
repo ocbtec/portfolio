@@ -31,22 +31,22 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars" id="burger-menu"></i>
+  <a class="menu-toggle rounded bright-gray" href="#">
+    <i class="fas fa-bars letter-spacing-0"></i>
   </a>
   <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Home</a>
+        <a class="js-scroll-trigger nav-item" href="#page-top"><b>Home</b></a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
+        <a class="js-scroll-trigger nav-item" href="#about">About</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        <a class="js-scroll-trigger nav-item" href="#portfolio">Portfolio</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Contact</a>
+        <a class="js-scroll-trigger nav-item" href="#contact">Contact</a>
       </li>
     </ul>
   </nav>
@@ -66,11 +66,11 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <p class="lead mb-5" id="about-text">
+          <p class="lead mb-5 letter-spacing-2">
             Hello people, I'm Richard Tepfenhart a junior web developer and I'm currently looking for new job
             opportunities
           </p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger border-0 mt-5" id="my-work-button" href="#portfolio">
+          <a class="btn btn-primary btn-xl js-scroll-trigger border-0 mt-5" href="#portfolio">
             My work
           </a>
         </div>
@@ -82,15 +82,15 @@
   <section class="content-section" id="portfolio">
     <div class="container">
       <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0" id="headline-h3">Portfolio</h3>
+        <h3 class="text-secondary mb-0 turquoise" id="headline-h3">Portfolio</h3>
         <h2 class="mb-5" id="section-headline">Recent Concepts</h2>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-12 mb-5">
-          <div class="caption">
+          <div class="caption text-center text-lg-left mt-5">
             <div class="caption-content">
-              <div class="h2" id="headline-h2">CSS-Playground</div>
-              <p class="mb-4"><b>Build with Angular + Material, full responsive</b></p>
+              <div class="h2 turquoise" id="headline-h2">CSS-Playground</div>
+              <p class="mb-4"><b class=" letter-spacing-2">Build with Angular + Material, full responsive</b></p>
             </div>
           </div>
           <div class="link-container">
@@ -102,11 +102,11 @@
             </a>
           </div>
         </div>
-        <div class="col-lg-6 mb-5">
+        <div class="col-md-6 mb-5 mt-5">
           <div class="caption">
             <div class="caption-content">
-              <div class="h2 text-center" id="headline-h2">WeatherApp</div>
-              <p class="mb-4 text-center"><b>Mobile first, full responsive</b></p>
+              <div class="h2 turquoise text-center" id="headline-h2">WeatherApp</div>
+              <p class="mb-4 text-center"><b class=" letter-spacing-2">Mobile first, full responsive</b></p>
             </div>
           </div>
           <div class="link-container portrait-img">
@@ -118,11 +118,11 @@
             </a>
           </div>
         </div>
-        <div class="col-lg-6 mb-5">
+        <div class="col-md-6 mb-5 mt-5">
           <div class="caption">
             <div class="caption-content">
-              <div class="h2 text-center" id="headline-h2">2048</div>
-              <p class="mb-4 text-center"><b>OOP JavaScript rebuild</b></p>
+              <div class="h2 turquoise text-center" id="headline-h2">2048</div>
+              <p class="mb-4 text-center"><b class=" letter-spacing-2">OOP JavaScript rebuild</b></p>
             </div>
           </div>
           <div class="link-container portrait-img">
@@ -151,12 +151,32 @@
         <div class="col-lg-12 row mr-0 ml-0 mb-5 justify-content-center">
           <a class="social-link rounded-circle text-white mr-5" href="https://www.linkedin.com/in/richard-tepfenhart/"
             target="_blank" id="contact-link">
-            <i class="icon-social-linkedin"></i>
+            <i class="icon-social-linkedin letter-spacing-0"></i>
           </a>
           <a class="social-link rounded-circle text-white ml-5" href="https://github.com/ocbtec" target="_blank"
             id="contact-link">
-            <i class="icon-social-github"></i>
+            <i class="icon-social-github letter-spacing-0"></i>
           </a>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-primary btn-xl js-scroll-trigger mt-5" data-toggle="modal" data-target="#myModal">
+      Download my CV
+    </button>
+    <!-- Prompt modal, to confirm downloading the file -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p class="mt-3 letter-spacing-1">Do you want to download my CV?</p>
+          </div>
+          <div class="modal-footer container justify-content-between">
+            <a href="img/CV_Richard_Tepfenhart_Webentwickler.pdf" download>
+              <button type="button" class="btn btn-primary" onclick="hideModal()">DOWNLOAD</button>
+            </a>
+            <button type="button" class="btn btn-outline-info" data-dismiss="modal">CLOSE</button>
+          </div>
         </div>
       </div>
     </div>
@@ -165,15 +185,15 @@
   <!-- Footer -->
   <footer class="footer text-center bg-secondary" id="contact">
     <div class="container">
-      <p class="text-muted small mb-0" id="footer-copyright">
+      <p class="text-faded small mb-0 letter-spacing-2">
         &copy; Richard Tepfenhart 2020-2021
       </p>
     </div>
   </footer>
 
   <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded js-scroll-trigger" id="scroll-to-top-link" href="#page-top">
-    <i class="fas fa-angle-up" id="scroll-to-top-icon"></i>
+  <a class="scroll-to-top rounded js-scroll-trigger bright-gray" href="#page-top">
+    <i class="fas fa-angle-up letter-spacing-0"></i>
   </a>
 
   <!-- Bootstrap core JavaScript -->
@@ -185,6 +205,32 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+
+  <script>
+    $(window).bind("beforeunload", function (zEvent) {
+      // PERFORM DESIRED ACTIONS HERE.
+      /* This code will fire just before the Individual-file Download
+         dialog opens.
+         Note that it will also fire before the tab or window is closed,
+         but that should not be a problem for this application.
+      */
+    });
+  </script>
+
+  <script src="js/custom.js"></script>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    var selectDialogueLink = $('<a href="img/2048.jpg">Select Files</a>');
+    var fileSelector = $('<input type="file">');
+
+    selectDialogueLink.click(function () {
+      fileSelector.click();
+      return false;
+    });
+    $('body').html(selectDialogue);
+    // This change to the fileSelector variable will make multiple selects true
+    fileSelector = $('<input type="file" multiple=""');
+  </script> -->
 
 </body>
 
