@@ -160,6 +160,26 @@
         </div>
       </div>
     </div>
+
+    <button class="btn btn-primary btn-xl js-scroll-trigger mt-5" data-toggle="modal" data-target="#myModal">
+      Download my CV
+    </button>
+    <!-- Prompt modal, to confirm downloading the file -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p class="mt-3 letter-spacing-1">Do you want to download my CV?</p>
+          </div>
+          <div class="modal-footer container justify-content-between">
+            <a href="img/CV_Richard_Tepfenhart_Webentwickler.pdf" download>
+              <button type="button" class="btn btn-primary" onclick="hideModal()">DOWNLOAD</button>
+            </a>
+            <button type="button" class="btn btn-outline-info" data-dismiss="modal">CLOSE</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->
@@ -196,6 +216,8 @@
       */
     });
   </script>
+
+  <script src="js/custom.js"></script>
 
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
     var selectDialogueLink = $('<a href="img/2048.jpg">Select Files</a>');
