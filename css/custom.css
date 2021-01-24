@@ -3,61 +3,72 @@
 }
 
 .masthead {
-  background-image: url("../img/screen.jpg");
+  background-image: url("../img/screen.jpg") !important;
 }
 
-#burger-menu {
-  letter-spacing: 0;
+.nav-item {
+  font-size: 20px;
+  padding-left: 3rem !important;
 }
 
-#scroll-to-top-link {
+.btn {
+  letter-spacing: 3px;
+  outline: none;
+}
+
+.letter-spacing-0 {
+  letter-spacing: 0px
+}
+
+.letter-spacing-1 {
+  letter-spacing: 1px;
+}
+
+.letter-spacing-2 {
+  letter-spacing: 2px;
+}
+
+.bright-gray {
   background-color: #50687985;
-}
-
-#scroll-to-top-icon {
-  letter-spacing: 0;
 }
 
 .headline-header {
   color: #b0b0b0;
 }
 
-#headline-h1 {
-  letter-spacing: 10px;
-}
-
-#headline-h2 {
-  color: #1d809f;
+.turquoise {
+  color: #1d809f !important;
 }
 
 #headline-h3 {
-  color: #1d809f !important;
   font-size: 20px;
 }
 
 .menu-toggle {
-  background-color: #50687985;
+  top: 38px;
+  right: 25px;
 }
 
-.menu-toggle:hover {
+.menu-toggle:hover,
+.scroll-to-top:hover {
   background-color: #1d809f;
 }
 
 #sidebar-wrapper {
-  background-color: #50687985;
+  background-color: #506879d1;
+}
+
+#sidebar-wrapper.active {
+  width: 400px;
+}
+
+.sidebar-nav {
+  width: 400px;
+  top: 30px;
 }
 
 #about-text {
   font-size: 30px;
-  letter-spacing: 2px;
-}
-
-#my-work-button {
-  background-color: #1d809f;
-}
-
-#my-work-button:hover {
-  background-color: #155d74;
 }
 
 .link-container {
@@ -100,15 +111,6 @@
   background-color: #f8f9fa;
 }
 
-.icon-social-linkedin,
-.icon-social-github {
-  letter-spacing: 0px;
-}
-
-.text-muted {
-  letter-spacing: 1px;
-}
-
 #contact-link {
   display: block;
   height: 4rem;
@@ -140,23 +142,36 @@
   }
   #header-h1 {
     font-size: 40px;
-    letter-spacing: 2px;
     line-height: 50px;
   }
   #header-h2 {
     font-size: 22px;
-    letter-spacing: 2px;
   }
   #headline-h2 {
     font-size: 22px;
-    letter-spacing: 2px;
   }
   #section-headline {
     font-size: 30px;
-    letter-spacing: 2px;
   }
   #about-text {
     font-size: 20px;
-    letter-spacing: 2px;
+  }
+  #sidebar-wrapper.active {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .sidebar-nav {
+    position: relative;
+    top: 0;
+  }
+  .nav-item {
+    padding-left: 0 !important;
+  }
+  .menu-toggle {
+    top: 15px;
+    right: 15px;
   }
 }
