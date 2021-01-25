@@ -8,6 +8,7 @@ a {
 
 .masthead {
   background-image: url("../img/screen.jpg") !important;
+  min-height: 100vh !important;
 }
 
 .nav-item {
